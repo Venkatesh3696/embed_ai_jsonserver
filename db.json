@@ -1,10 +1,338 @@
 {
-  "posts": [
-    { "id": 1, "title": "Hello World" },
-    { "id": 2, "title": "JSON Server" }
+  "characters": [
+    {
+      "id": 1,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 2,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 3,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 4,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 5,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 6,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 7,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 8,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 9,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 10,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    },
+    {
+      "id": 11,
+      "name": "Gandhi",
+      "postedBy": "venkatesh",
+      "description": "Cleanest clone in high school",
+      "comments": 70.6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712670838/character-image_lm8ing.png"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "Some comment", "postId": 1 },
-    { "id": 2, "body": "Another comment", "postId": 2 }
+  "try_these": [
+    {
+      "id": 1,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 19,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    },
+    {
+      "id": 20,
+      "imageUrl": "https://res.cloudinary.com/dgcysjarm/image/upload/v1712751219/trythese-image_lyg2ox.avif",
+      "heading": "Practice a new language",
+      "withWho": "HyperGlot"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Helpers"
+    },
+    {
+      "id": 2,
+      "topic": "Anime Game Characters"
+    },
+    {
+      "id": 3,
+      "topic": "Game Characters"
+    },
+    {
+      "id": 4,
+      "topic": "Anime"
+    },
+    {
+      "id": 5,
+      "topic": "Comedy"
+    },
+    {
+      "id": 6,
+      "topic": "VTuber"
+    },
+    {
+      "id": 7,
+      "topic": "Books"
+    },
+    {
+      "id": 8,
+      "topic": "Image Generating"
+    },
+    {
+      "id": 9,
+      "topic": "Discussion"
+    },
+    {
+      "id": 10,
+      "topic": "Language Learning"
+    },
+    {
+      "id": 11,
+      "topic": "History"
+    },
+    {
+      "id": 12,
+      "topic": "Religion"
+    },
+    {
+      "id": 13,
+      "topic": "Animals"
+    },
+    {
+      "id": 14,
+      "topic": "Philosphy"
+    },
+    {
+      "id": 15,
+      "topic": "Politics"
+    }
+  ],
+  "try_saying": [
+    {
+      "id": 1,
+      "profile": {
+        "profileImageUrl": "WhoWouldWin",
+        "name": "WhoWouldWin",
+        "username": "greg",
+        "chatsCount": 25.4,
+        "likes": 6913
+      },
+      "questions": [
+        { "id": 1, "question": "Batman vs. Superman" },
+        { "id": 2, "question": "Knight vs.Samurai" },
+        { "id": 3, "question": "Lebron James vs. Michael Jordon" }
+      ]
+    },
+    {
+      "id": 2,
+      "profile": {
+        "profileImageUrl": "WhoWouldWin",
+        "name": "WhoWouldWin",
+        "username": "greg",
+        "chatsCount": 25.4,
+        "likes": 6913
+      },
+      "questions": [
+        { "id": 1, "question": "Batman vs. Superman" },
+        { "id": 2, "question": "Knight vs.Samurai" },
+        { "id": 3, "question": "Lebron James vs. Michael Jordon" }
+      ]
+    },
+    {
+      "id": 3,
+      "profile": {
+        "profileImageUrl": "WhoWouldWin",
+        "name": "WhoWouldWin",
+        "username": "greg",
+        "chatsCount": 25.4,
+        "likes": 6913
+      },
+      "questions": [
+        { "id": 1, "question": "Batman vs. Superman" },
+        { "id": 2, "question": "Knight vs.Samurai" },
+        { "id": 3, "question": "Lebron James vs. Michael Jordon" }
+      ]
+    },
+    {
+      "id": 4,
+      "profile": {
+        "profileImageUrl": "WhoWouldWin",
+        "name": "WhoWouldWin",
+        "username": "greg",
+        "chatsCount": 25.4,
+        "likes": 6913
+      },
+      "questions": [
+        { "id": 1, "question": "Batman vs. Superman" },
+        { "id": 2, "question": "Knight vs.Samurai" },
+        { "id": 3, "question": "Lebron James vs. Michael Jordon" }
+      ]
+    }
   ]
 }
